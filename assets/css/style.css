@@ -1,5 +1,5 @@
  /* Google fonts import */
- @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Suravaram&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Suravaram&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap') async;
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -20,6 +20,10 @@ body {
 /* Header */
 header {
     background-color: darkslateblue;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* Main Content */
