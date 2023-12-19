@@ -87,6 +87,7 @@ main {
     background-color: lavender;
     /* Make main element take up the surplus space to push down the footer */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
