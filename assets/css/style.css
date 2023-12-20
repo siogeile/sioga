@@ -84,10 +84,17 @@
 
  /* Main Content */
  main {
-     background-color: lavender;
      /* Make main element take up the surplus space to push down the footer */
      flex: 1 0 auto;
      margin-top: 37px;
+     background: url("../images/sioga-hero-image.jpg") no-repeat center center/cover;
+ }
+
+ /* Hero Section */
+ #hero {
+    height: 600px;
+    width: 100%;
+
  }
 
  /* Footer */
