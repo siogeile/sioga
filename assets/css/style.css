@@ -18,6 +18,13 @@
      font-family: 'Comfortaa', sans-serif;
  }
 
+ h1, h2, h3 {
+     font-family: 'Ubuntu', sans-serif;
+     text-transform: lowercase;
+     letter-spacing: 2px;
+     color: #0A0A33;
+ }
+
  /* Header */
  header {
      background-color: #CCCCFF;
@@ -29,13 +36,6 @@
      display: flex;
      justify-content: space-between;
      align-items: baseline;
- }
-
- h1 {
-     font-family: 'Ubuntu', sans-serif;
-     text-transform: lowercase;
-     letter-spacing: 2px;
-     color: #0A0A33;
  }
 
  header a {
@@ -87,16 +87,31 @@
      /* Make main element take up the surplus space to push down the footer */
      flex: 1 0 auto;
      margin-top: 37px;
-     background: url("../images/sioga-hero-image.jpg") no-repeat center center/cover;
  }
 
  /* Hero Section */
  #hero {
     height: 600px;
     width: 100%;
-
+    background: url("../images/sioga-hero-image.jpg") no-repeat center center/cover;
+    position: relative;
  }
 
+ #cover-text {
+    /* Use a 4th rgba value to set the transparency*/
+    background-color: rgba(92, 92, 153, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 70%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+ }
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff;
+}
  /* Footer */
  #social-networks {
     background-color: #A3A3CC;
@@ -149,6 +164,12 @@
          /* Push main content down to accomodate larger header */
          flex: 1 0 auto;
          margin-top: 75px;
+     }
+
+     /* Hero */
+     #cover-text {
+        width: 300px;
+        right: 50px;
      }
  }
 
