@@ -25,7 +25,6 @@
      position: fixed;
      z-index: 99;
      width: 100%;
-     box-shadow: 0 1px 2px #3a3a3a;
      box-shadow: 0 2px 2px #3a3a3a;
      display: flex;
      justify-content: space-between;
@@ -46,7 +45,6 @@
 
  #menu {
      font-size: 110%;
-     letter-spacing: 4px;
      letter-spacing: 3px;
      list-style-type: none;
  }
@@ -84,13 +82,11 @@
      font-size: 2rem;
  }
 
-
  /* Main Content */
  main {
      background-color: lavender;
      /* Make main element take up the surplus space to push down the footer */
      flex: 1 0 auto;
-     margin-top: 47px;
      margin-top: 37px;
  }
 
@@ -122,5 +118,25 @@
 
      .nav-toggle-label {
          display: none;
+     }
+
+     #logo {
+         font-size: 280%;
+         line-height: 75px;
+         margin: 0 0.5rem;
+     }
+
+     /* Main content */
+     main {
+         /* Push main content down to accomodate larger header */
+         flex: 1 0 auto;
+         margin-top: 75px;
+     }
+ }
+
+ /* Large devices (laptops and desktops, 992px and up) */
+ @media screen and (min-width: 992px) {
+     #menu a:hover {
+         border-bottom: 1px solid #0A0A33
      }
  }
