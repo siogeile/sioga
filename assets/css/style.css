@@ -92,12 +92,20 @@
 
  /* Footer */
  #social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
+    background-color: #A3A3CC;
+        text-align: center;
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
  }
- 
+
+ #social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #0A0A33;
+ }
+
  /* Media query: tablets and larger (768px and up) */
  @media screen and (min-width: 780px) {
 
