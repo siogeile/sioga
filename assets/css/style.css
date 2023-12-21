@@ -17,13 +17,30 @@
      color: #3a3a3a;
      font-family: 'Comfortaa', sans-serif;
  }
-
- h1, h2, h3 {
+/* separate h1, h2 and h3 styles */
+ h1 {
      font-family: 'Ubuntu', sans-serif;
      text-transform: lowercase;
      letter-spacing: 2px;
      color: #0A0A33;
+     font-size: 3rem;
  }
+
+  h2 {
+      font-family: 'Ubuntu', sans-serif;
+      text-transform: lowercase;
+      letter-spacing: 2px;
+      color: #0A0A33;
+      font-size: 2rem;
+  }
+
+  h3 {
+      font-family: 'Ubuntu', sans-serif;
+      text-transform: lowercase;
+      letter-spacing: 2px;
+      color: #0A0A33;
+      font-size: 1.3rem;
+  }
 
  /* Header */
  header {
