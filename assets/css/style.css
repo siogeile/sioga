@@ -66,7 +66,7 @@
      list-style-type: none;
  }
 
- #menu>li {
+ #menu > li {
      margin-bottom: 1em;
  }
 
@@ -103,7 +103,7 @@
  main {
      /* Make main element take up the surplus space to push down the footer */
      flex: 1 0 auto;
-     margin-top: 37px;
+     margin-top: 37px;/ 
  }
 
  /* Hero Section */
@@ -129,6 +129,15 @@
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
 }
+
+/* Add specific styles for about page here */
+#offerings {
+    height: 400px;
+    width: 100%;
+    background: url("../images/sioga-offerings-image.jpg") no-repeat center center/cover;
+    position: fixed;
+}
+
  /* Footer */
  #social-networks {
     background-color: #A3A3CC;
