@@ -100,7 +100,7 @@
  main {
      /* Make main element take up the surplus space to push down the footer */
      flex: 1 0 auto;
-     margin-top: 55px;/ 
+     margin-top: 55px;
  }
 
  /* Hero Section */
@@ -139,7 +139,7 @@
     height: 500px;
     width: 100%;
     background-color: rgba(92, 92, 153, .7);
-    position: fixed;
+    position: relative;
  }
 
  #offerings-float {
@@ -151,6 +151,11 @@
 
  .white-heading {
     color: #ffffff
+ }
+
+ #offers-list {
+    padding: 10px;
+    list-style: square inside;
  }
 
  /* Footer */
@@ -185,7 +190,7 @@
          display: flex;
      }
 
-     #menu>li {
+     #menu > li {
          padding-left: 1rem;
          letter-spacing: 2px;
      }
