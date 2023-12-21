@@ -175,6 +175,10 @@
     text-align: left;
  }
 
+ #form-heading {
+    padding: 5px 0px;
+ }
+
  /* Footer */
  #social-networks {
     background-color: #A3A3CC;

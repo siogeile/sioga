@@ -41,9 +41,26 @@
 
     <!-- Main -->
     <main>
-        <h2>Sign-up</h2>
-        <h3>11 Classes for €45</h3>
-        <!--Create form with validation that checks for email and empty boxes with. Display form data on submit -->
+        <section id="signup" class="padding">
+            <div id="form-heading">
+                <h2>Sign-up</h2>
+                <h3>11 Classes for €45</h3>
+            </div>
+            <form action="https://formdump.codeinstitute.net" method="POST">
+                <div>
+                    <label for="name-field">Name</label>
+                    <input id="name-field" type="text" name="full_name" placeholder="Your name">
+                </div>
+                <div>
+                    <label for="email-field">Email</label>
+                    <input id="email-field" type="email" name="email" placeholder="Your email">
+                </div>
+                <div>
+                    <input type="submit" value="Enter">
+                </div>
+            </form>
+            <!--Create form with validation that checks for email and empty boxes with. Display form data on submit -->
+        </section>
         
     </main>
     <!-- Footer -->
