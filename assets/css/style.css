@@ -162,6 +162,19 @@
     list-style: square inside;
  }
 
+  #timetable-heading {
+      background-color: #CCCCFF;
+      padding: 5px 10px;
+      box-shadow: 0 2px 2px #3a3a3a;
+  }
+  
+ #timetable {
+    background-color: #CCCCFF;
+    width: 100%;
+    padding: 0px 10px;
+    text-align: left;
+ }
+
  /* Footer */
  #social-networks {
     background-color: #A3A3CC;
