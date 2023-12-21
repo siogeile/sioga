@@ -179,6 +179,25 @@
     padding: 5px 0px;
  }
 
+ #signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 15px 0px;
+    font-size: xx-large;
+    width: fit-content;
+ }
+
+ #signup-form input {
+    background-color: #CCCCFF;
+    line-height: 3em;
+    min-width: 300px;
+ }
+/* FIGURE OUT HOW TO ALIGN THE ENTER BUTTON WITH THE TEXT INPUTS */
+ #submit {
+    width: 300px;
+ }
+
  /* Footer */
  #social-networks {
     background-color: #A3A3CC;
