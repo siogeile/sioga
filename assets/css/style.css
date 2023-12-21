@@ -20,7 +20,6 @@
 /* separate h1, h2 and h3 styles */
  h1 {
      font-family: 'Ubuntu', sans-serif;
-     text-transform: lowercase;
      letter-spacing: 2px;
      color: #0A0A33;
      font-size: 3rem;
@@ -28,7 +27,6 @@
 
   h2 {
       font-family: 'Ubuntu', sans-serif;
-      text-transform: lowercase;
       letter-spacing: 2px;
       color: #0A0A33;
       font-size: 2rem;
@@ -36,7 +34,6 @@
 
   h3 {
       font-family: 'Ubuntu', sans-serif;
-      text-transform: lowercase;
       letter-spacing: 2px;
       color: #0A0A33;
       font-size: 1.3rem;
@@ -103,7 +100,7 @@
  main {
      /* Make main element take up the surplus space to push down the footer */
      flex: 1 0 auto;
-     margin-top: 37px;/ 
+     margin-top: 55px;/ 
  }
 
  /* Hero Section */
@@ -132,11 +129,29 @@
 
 /* Add specific styles for about page here */
 #offerings {
-    height: 400px;
+    height: 500px;
     width: 100%;
     background: url("../images/sioga-offerings-image.jpg") no-repeat center center/cover;
-    position: fixed;
+    position: relative;
 }
+
+ #offerings-overlay {
+    height: 500px;
+    width: 100%;
+    background-color: rgba(92, 92, 153, .7);
+    position: fixed;
+ }
+
+ #offerings-float {
+     position: absolute;
+     bottom: 15%;
+     padding-top: 40px;
+     padding-left: 10px;
+ }
+
+ .white-heading {
+    color: #ffffff
+ }
 
  /* Footer */
  #social-networks {
