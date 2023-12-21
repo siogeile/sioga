@@ -153,6 +153,10 @@
     color: #ffffff
  }
 
+ .padding {
+    padding-left: 10px;
+ }
+
  #offers-list {
     padding: 10px;
     list-style: square inside;
