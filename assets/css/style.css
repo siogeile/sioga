@@ -187,7 +187,7 @@ p {
     width: 300px;
  } */
 
-/* copied code from "Sourdough Bakes" */
+/* customise code from "Sourdough Bakes" */
 .text-input,
 textarea {
     width: 100%;
@@ -212,12 +212,11 @@ textarea {
     background-color: #45a049;
 }
 
-
-.contact_us_form {
+.forms {
     border-radius: 5px;
     background-color: rgba(139, 195, 74, .8);
     padding: 20px;
-    width: 50%;
+    width: 65%;
     margin: 10% auto;
 }
  /* Footer */
