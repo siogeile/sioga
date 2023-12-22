@@ -111,7 +111,8 @@ p {
     padding-top: 40px;
     padding-left: 10px;
  }
-/* Add specific styles for about page here */
+/* About Page */
+/* Offerings List */
 #offerings {
     height: 500px;
     width: 100%;
@@ -146,6 +147,8 @@ p {
     list-style: square inside;
  }
 
+ /* Timetable*/
+
   #timetable-heading {
       background-color: #CCCCFF;
       padding: 5px 10px;
@@ -159,6 +162,7 @@ p {
     text-align: left;
  }
 
+ /* Sign-up Page */
  #form-heading {
     padding: 5px 0px;
  }
