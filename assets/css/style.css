@@ -10,35 +10,23 @@
 
  /* General Styles */
  body {
+    font-family: 'Comfortaa', sans-serif;
      min-height: 100vh;
      display: flex;
      flex-direction: column;
      /* Generic project styles */
      color: #3a3a3a;
-     font-family: 'Comfortaa', sans-serif;
  }
-/* separate h1, h2 and h3 styles */
- h1 {
+/*  re-group h1, h2 and h3 styles */
+ h1, h2, h3 {
      font-family: 'Ubuntu', sans-serif;
      letter-spacing: 2px;
      color: #0A0A33;
-     font-size: 3rem;
  }
-
-  h2 {
-      font-family: 'Ubuntu', sans-serif;
-      letter-spacing: 2px;
-      color: #0A0A33;
-      font-size: 2rem;
-  }
-
-  h3 {
-      font-family: 'Ubuntu', sans-serif;
-      letter-spacing: 2px;
-      color: #0A0A33;
-      font-size: 1.3rem;
-  }
-
+ /* might need to define p font size - will test when the content is coded
+p {
+    font-size: 1em;
+}
  /* Header */
  header {
      background-color: #CCCCFF;
@@ -46,10 +34,10 @@
      position: fixed;
      z-index: 99;
      width: 100%;
-     box-shadow: 0 2px 2px #3a3a3a;
      display: flex;
      justify-content: space-between;
      align-items: baseline;
+     box-shadow: 0 2px 2px #3a3a3a;
  }
 
  header a {
@@ -113,6 +101,7 @@
 
  #cover-text {
     /* Use a 4th rgba value to set the transparency*/
+    color: #ffffff;
     background-color: rgba(92, 92, 153, .7);
     font-size: 130%;
     position: absolute;
@@ -122,11 +111,6 @@
     padding-top: 40px;
     padding-left: 10px;
  }
-
-#cover-text > h2, #cover-text > h3 {
-    color: #ffffff;
-}
-
 /* Add specific styles for about page here */
 #offerings {
     height: 500px;
