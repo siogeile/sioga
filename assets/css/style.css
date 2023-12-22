@@ -14,6 +14,7 @@
      min-height: 100vh;
      display: flex;
      flex-direction: column;
+     flex-grow: 0 2 1;
      /* Generic project styles */
      color: #3a3a3a;
  }
@@ -88,7 +89,8 @@ p {
  main {
      /* Make main element take up the surplus space to push down the footer */
      flex: 1 0 auto;
-     margin-top: 55px;
+     margin-top: 37px;
+     background-color: #A3A3CC;
  }
 
  /* Hero Section */
@@ -162,32 +164,13 @@ p {
     text-align: left;
  }
 
- /* Sign-up Page */
- /* hiding this code for now
- #form-heading {
-    padding: 5px 0px;
- }
-
- #signup-form {
-    display: flex;
-    border-radius: 5px;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 15px 0px;
-    font-size: xx-large;
-    width: fit-content;
- }
-
- #signup-form input {
-    background-color: #CCCCFF;
-    line-height: 3em;
-    min-width: 300px;
- }
- #submit {
-    width: 300px;
- } */
-
+ /* Sign-up Page*/
 /* customise code from "Sourdough Bakes" */
+#signup-background {
+    height: 600px;
+    width: 100%;
+    background: url("../images/pexels-cup-of-couple-6633999.jpg") no-repeat center right/cover;
+}
 .text-input,
 textarea {
     width: 100%;
@@ -214,19 +197,38 @@ textarea {
 
 .forms {
     border-radius: 5px;
-    background-color: rgba(139, 195, 74, .8);
+    background-color: rgba(92, 92, 153, .7);
     padding: 20px;
     width: 65%;
     margin: 10% auto;
 }
+
+/* Contact Page */
+.contact-background {
+    height: 600px;
+    width: 100%;
+    background: url("../images/pexels-evan-white-11720047.jpg") no-repeat center right/cover;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#infos {
+
+}
  /* Footer */
  #social-networks {
     background-color: #A3A3CC;
-        text-align: center;
-        padding: 20px 0;
-        display: flex;
-        justify-content: space-evenly;
-        list-style-type: none;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
  }
 
  #social-networks i {
