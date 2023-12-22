@@ -85,11 +85,15 @@ p {
      font-size: 2rem;
  }
 
+ #logo {
+    padding: 5px;
+ }
+
  /* Main Content */
  main {
      /* Make main element take up the surplus space to push down the footer */
      flex: 1 0 auto;
-     margin-top: 37px;
+     margin-top: 47px;
      background-color: #A3A3CC;
  }
 
@@ -151,7 +155,7 @@ p {
 
  /* Timetable*/
 
-  #timetable-heading {
+ #timetable-heading {
       background-color: #CCCCFF;
       padding: 5px 10px;
       box-shadow: 0 2px 2px #3a3a3a;
@@ -212,14 +216,19 @@ textarea {
 
 .contact-info {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-evenly;
+    flex-direction: column;
+    height: 170px;
+    width: 75%;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding-top: 40px;
+    padding-left: 10px;
+    color:#0A0A33;
 }
 
-#infos {
-
+.lists {
+    list-style-type: none;
 }
  /* Footer */
  #social-networks {
@@ -235,6 +244,24 @@ textarea {
     font-size: 160%;
     padding: 5%;
     color: #0A0A33;
+ }
+
+ /* Larger than standard phones */
+ @media screen and (min-width: 428px) {
+     .contact-info {
+         display: flex;
+         flex-direction: column;
+         height: 170px;
+         width: 280px;
+         position: relative;
+         top: 20px;
+         text-overflow: clip;
+         left: 20px;
+         padding-top: 40px;
+         padding-left: 10px;
+         color: #0A0A33;
+         background-color: rgba(92, 92, 153, .7);
+     }
  }
 
  /* Media query: tablets and larger (768px and up) */
