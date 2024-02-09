@@ -82,9 +82,22 @@ Why?
 
 Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
 
-Colour palette image from [coolors](https://coolors.co/)
+![sioga-color-palette](/assets/images/sioga-color-palette.png "5 color palette of 'Jet', 'Periwinkle', 'Cool gray', 'Ultra Violet', 'Oxford Blue' and 'Mantis'") Colour palette image from [coolors](https://coolors.co/)
+
+#### Hex Codes
+- 3a3a3a
+- ccccff
+- a3a3cc
+- 5c5c99c0
+- 0a0a33
+- 6ad26f
 
 ### Typography
+
+![Comfortaa](/assets/images/comfortaa-google-fonts.png "Comfortaa")[Comfortaa](https://fonts.google.com/specimen/Comfortaa) imported from Google Fonts
+
+![Ubuntu](/assets/images/ubuntu-google-fonts.png "Ubuntu")
+[Ubuntu](https://fonts.google.com/specimen/Ubuntu) imported from Google Fonts
 
 Imported font info
 
