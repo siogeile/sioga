@@ -78,34 +78,32 @@ Add optional [shields.io](https://shields.io) badges
 
 ### Colour Scheme
 
-Why?
+I used light to dark lavender-purples and greys to envoke a fresh feeling of gentle calm and because of it's psychological ties to growth and healing. For highlights I chose a bright invigorating green to energise while still promoting a sense of calm.
 
-Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
+![sioga-6-color-palette](/assets/images/sioga-color-palette.png "6 color palette of 'Onyx', 'Lavender Blue', 'Blue Bell', 'Liberty', 'Oxford Blue' and 'Mantis'")
 
-![sioga-color-palette](/assets/images/sioga-color-palette.png "5 color palette of 'Jet', 'Periwinkle', 'Cool gray', 'Ultra Violet', 'Oxford Blue' and 'Mantis'") Colour palette image from [coolors](https://coolors.co/)
+Though irrelevant today, I thought it would be interesting to limit myself to "websafe" hex colours to see if I could still create a palette that worked well. After chosing websafe alternatives, I decided I liked how the new colours interacted and decided to keep the adjustments.
 
-#### Hex Codes
-- 3a3a3a
-- ccccff
-- a3a3cc
-- 5c5c99c0
-- 0a0a33
-- 6ad26f
+#### Colour Accessibility
+
+I used the [contrast checker tool](https://webaim.org/resources/contrastchecker/) by [WebAIM](https://webaim.org/) to ensure my site did not cause eye strain and that it met the highest level of Web Content Accessibility Guidlines and only used combinatins of colours that passed entirely, or amending the hex code if needed.
+
+333366ab
+
+![WCAGPASS](/assets/images/webaim-contrast-passed.gif "web aim wcag pass tests") ![WCAGPASS](/assets/images/webaim-contrast-failed.gif "web aim wcag fail tests")
+
+![sioga-6-color-palette](/assets/images/sioga-websafe-palette.png "6 color websafe palette of 'Jet', 'Lavender Blue', 'Blue Bell', 'Space Cadet', 'Oxford Blue' and 'Mantis'")
 
 ### Typography
 
-![Comfortaa](/assets/images/comfortaa-google-fonts.png "Comfortaa")[Comfortaa](https://fonts.google.com/specimen/Comfortaa) imported from Google Fonts
+I chose [Comfortaa](https://fonts.google.com/specimen/Comfortaa) for general text and [Ubuntu](https://fonts.google.com/specimen/Ubuntu) for headings, and imported both from [Google Fonts](https://fonts.google.com/).
 
-![Ubuntu](/assets/images/ubuntu-google-fonts.png "Ubuntu")
-[Ubuntu](https://fonts.google.com/specimen/Ubuntu) imported from Google Fonts
+Both fonts are sans-serif and easy to read on-screen.
 
-Imported font info
+I wanted to use a font that had some small hint of how sanskrit script looks, but maintained strong web readability and felt crisp and contemporary. I found similarities in Ubuntu to handwritten sanskrit script such as the abrupt yet soft curves, and the slender yet somehow stocky visual created by the characters. I paired Comfortaa as a subtle contrast to add a lightness and softness that still captures a similar feeling.
 
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
-
-Image of the fonts chosen as a reference from [Google Fonts](https://fonts.google.com/)
+![FontsLight](/assets/images/wordmarkit-googlefonts-previews-light.png "Comfortaa and Ubuntu dark on light Font Preview from wordmark.it")
+![FontsDark](/assets/images/wordmarkit-googlefonts-previews.png "Comfortaa and Ubuntu light on dark Font Preview from wordmark.it")
 
 ### Imagery
 

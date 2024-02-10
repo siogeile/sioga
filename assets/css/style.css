@@ -15,13 +15,12 @@
      display: flex;
      flex-direction: column;
      /* Generic project styles */
-     color: #3a3a3a;
+     color: #333333;
  }
 /*  re-group h1, h2 and h3 styles */
  h1, h2, h3 {
      font-family: 'Ubuntu', sans-serif;
      letter-spacing: 2px;
-     color: #0A0A33;
  }
  /* might need to define p font size - will test when the content is coded
 p {
@@ -29,7 +28,7 @@ p {
 }
  /* Header */
  header {
-     background-color: #CCCCFF;
+     background-color: #ccccff;
      padding: 0 1rem;
      position: fixed;
      z-index: 99;
@@ -37,7 +36,7 @@ p {
      display: flex;
      justify-content: space-between;
      align-items: baseline;
-     box-shadow: 0 2px 2px #3a3a3a;
+     box-shadow: 0 2px 2px #333333;
  }
 
  header a {
@@ -56,17 +55,17 @@ p {
  }
 
  .active {
-     border-bottom: 1px solid #0A0A33;
+     border-bottom: 1px solid #000033;
  }
 
  /* Navbar styles with dropdown toggle */
  nav {
      position: absolute;
-     background-color: #CCCCFF;
+     background-color: #ccccff;
      width: 100%;
      left: 0;
      padding: 0 1rem;
-     box-shadow: 0 1px 2px #3a3a3a;
+     box-shadow: 0 1px 2px #333333;
      display: none;
      top: 100%
  }
@@ -93,7 +92,7 @@ p {
      /* Make main element take up the surplus space to push down the footer */
      flex: 1 0 auto;
      margin-top: 47px;
-     background-color: #A3A3CC;
+     background-color: #9999cc;
  }
 
  /* Hero Section */
@@ -105,9 +104,9 @@ p {
  }
 
  #cover-text {
-    color: #ffffff;
+    color: #ccccff;
     /* Set transparancy of background color with extra set of characters at the end of hex code*/
-    background-color: #5c5c99c0;
+    background-color: #333366;
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -128,7 +127,7 @@ p {
  #offerings-overlay {
     height: 500px;
     width: 100%;
-    background-color: #5c5c99c0;
+    background-color: #333366ab;
     position: relative;
  }
 
@@ -155,13 +154,13 @@ p {
  /* Timetable*/
 
  #timetable-heading {
-      background-color: #CCCCFF;
+      background-color: #ccccff;
       padding: 5px 10px;
-      box-shadow: 0 2px 2px #3a3a3a;
+      box-shadow: 0 2px 2px #333333;
   }
   
  #timetable {
-    background-color: #CCCCFF;
+    background-color: #ccccff;
     width: 100%;
     padding: 0px 10px;
     text-align: left;
@@ -178,7 +177,7 @@ p {
 textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #ccccff;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -187,21 +186,21 @@ textarea {
 }
 
 .submit-button {
-    background-color: #0A0A33;
-    color: #CCCCFF;
+    background-color: #000033;
+    color: #ccccff;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
 }
 
 .submit-button:hover {
-    background-color: #6ad26f;
-    color: #0A0A33;
+    background-color: #66cc66;
+    color: #000033;
 }
 
 .forms {
     border-radius: 5px;
-    background-color: #5c5c99c0;
+    background-color: #333366ab;
     padding: 20px;
     width: 65%;
     margin: 10% auto;
@@ -224,7 +223,7 @@ textarea {
     left: 20px;
     padding-top: 40px;
     padding-left: 10px;
-    color:#0A0A33;
+    color:#000033;
 }
 
 .lists {
@@ -232,7 +231,7 @@ textarea {
 }
  /* Footer */
  #social-networks {
-    background-color: #A3A3CC;
+    background-color: #9999cc;
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -243,7 +242,7 @@ textarea {
  #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #0A0A33;
+    color: #000033;
  }
 
  /* Larger than standard phones */
@@ -259,8 +258,8 @@ textarea {
          left: 20px;
          padding-top: 40px;
          padding-left: 10px;
-         color: #0A0A33;
-         background-color: rgba(92, 92, 153, .7);
+         color: #ccccff;
+         background-color: #333366ab;
      }
  }
 
@@ -312,6 +311,6 @@ textarea {
  /* Large devices (laptops and desktops, 992px and up) */
  @media screen and (min-width: 992px) {
      #menu a:hover {
-         border-bottom: 1px solid #0A0A33
+         border-bottom: 1px solid #000033
      }
  }
