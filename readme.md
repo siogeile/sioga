@@ -249,6 +249,8 @@ Place instructions on how to clone your project here.
 
 ## Testing
 
+Testing documentation is available to view here
+
 ## Credits
 
 ### Code Used

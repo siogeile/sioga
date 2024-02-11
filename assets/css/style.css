@@ -14,7 +14,6 @@
      min-height: 100vh;
      display: flex;
      flex-direction: column;
-     /* Generic project styles */
      color: #333333;
  }
 /*  h1, h2 and h3 styles */
@@ -22,6 +21,9 @@
      font-family: 'Ubuntu', sans-serif;
      letter-spacing: 2px;
  }
+p {
+    margin: 1rem 0;
+}
  /* Header */
  header {
      background-color: #ccccff;
@@ -60,7 +62,7 @@
      background-color: #ccccff;
      width: 100%;
      left: 0;
-     padding: 0 1rem;
+     padding: 1rem 1rem;
      box-shadow: 0 1px 2px #333333;
      display: none;
      top: 100%
@@ -83,20 +85,26 @@
     padding: 5px;
  }
 
+ .section-line {
+    border-bottom: 6px solid #33336669;
+    box-shadow: 0 3px 2px #ccccff28;
+  }
+
  /* Main Content */
  main {
      /* Make main element take up the surplus space to push down the footer */
      flex: 1 0 auto;
      margin-top: 47px;
-     background-color: #9999cc;
+     background-color: #ccccff;
  }
 
- /* Hero Section */
+ /* Hero Section Home Page*/
  #hero {
     height: 600px;
     width: 100%;
     background: url("../images/sioga-hero-image.jpg") no-repeat center center/cover;
     position: relative;
+    box-shadow: 0 3px 2px #333366a2;
  }
 
  #cover-text {
@@ -110,7 +118,35 @@
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
+    padding: 2.5rem 2rem;
  }
+
+ /* Text Block Homepage */
+ .block {
+    padding: .5rem 1rem;
+ }
+
+ .text-block {
+    padding: .5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline: 1rem;
+ }
+
+ .text-box {
+    background-color: #ccccffc7;
+ }
+
+ .new-to-yoga {
+    background-color: #ffffff;
+    background: url("../images/sioga-new-to-yoga-image.jpg") no-repeat center center/cover;
+    padding: 3rem 0;
+ }
+
+ .new-to-yoga h2 {
+    font-size: 3rem;
+ }
+
 /* About Page */
 /* Offerings List */
 #offerings {
@@ -120,7 +156,7 @@
     position: relative;
 }
 
- #offerings-overlay {
+#offerings-overlay {
     height: 500px;
     width: 100%;
     background-color: #333366ab;
@@ -298,10 +334,29 @@ textarea {
          margin-top: 75px;
      }
 
+     .homepage {
+        font-size: 1.5rem;
+     }
+
      /* Hero */
      #cover-text {
         width: 300px;
         right: 50px;
+     }
+
+     .block {
+        display: flex;
+        padding: .5rem 8rem;
+        align-items: stretch;
+     }
+    
+     .text-block {
+        padding: .5rem 2rem;
+        min-width: 50%;
+     }
+
+     .new-to-yoga h2 {
+        font-size: 5rem;
      }
  }
 
@@ -310,4 +365,9 @@ textarea {
      #menu a:hover {
          border-bottom: 1px solid #000033
      }
+
+    body {
+        font-size: 18px;
+     }
+
  }
