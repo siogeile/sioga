@@ -17,15 +17,11 @@
      /* Generic project styles */
      color: #333333;
  }
-/*  re-group h1, h2 and h3 styles */
+/*  h1, h2 and h3 styles */
  h1, h2, h3 {
      font-family: 'Ubuntu', sans-serif;
      letter-spacing: 2px;
  }
- /* might need to define p font size - will test when the content is coded
-p {
-    font-size: 1em;
-}
  /* Header */
  header {
      background-color: #ccccff;
@@ -201,6 +197,7 @@ textarea {
 .forms {
     border-radius: 5px;
     background-color: #333366ab;
+    color: #ccccff;
     padding: 20px;
     width: 65%;
     margin: 10% auto;
