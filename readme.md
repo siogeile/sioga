@@ -265,7 +265,7 @@ The site is deployed using GitHub Pages. Visit the deployed site [here](https://
 
 ## Testing
 
-Testing documentation is available to view here
+
 
 ## Credits
 

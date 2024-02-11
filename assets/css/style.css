@@ -200,11 +200,6 @@ main {
     list-style: square inside;
 }
 
-.offers-heading {
-    background-color: #ccccff;
-    padding: 5px 50px 5px 10px;
-}
-
 /* Timetable*/
 .timetable {
     background-color: #ccccff;
