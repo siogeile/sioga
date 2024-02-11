@@ -307,16 +307,7 @@ closely followed love running until commit 617ab0c
 changed images, colors, fonts, content - copied code and commit messages
 after commit 617ab0c, any copied code is accompanied by a citing comment
 
-
 ## Credits
-
-### Code Used
-
-### Content
-
-###  Media
-
-### README
 
 I used a README [template](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md) developed by [kera-cudmore](https://github.com/kera-cudmore) to form the base of this README. All headings, sections and the index are following that template unless mentioned otherwise. The content filling the README is my own, unless mentioned otherwise.
 
@@ -325,5 +316,3 @@ I used the headings for my "User Stories" section from the README of another [pr
 I used the "Love Running" README to populate my features section with edits to make it my own.
 
 For my first pen and paper wireframes I blocked out the "Coding Club" Sample Project from the Code Institute coursework and populated it with content for my project in order to get a feel for building wireframes.
-  
-###  Acknowledgments
