@@ -17,13 +17,28 @@
      color: #333333;
  }
 /*  h1, h2 and h3 styles */
- h1, h2, h3 {
+h1, h2, h3 {
      font-family: 'Ubuntu', sans-serif;
      letter-spacing: 2px;
  }
 p {
     margin: 1rem 0;
+    font-family: 'Comfortaa';
 }
+
+th {
+    padding: 1rem 2rem 0 0;
+}
+
+td {
+    padding: 1rem 0 0;
+}
+
+
+.white-heading {
+    color: #ffffff
+ }
+
  /* Header */
  header {
      background-color: #ccccff;
@@ -148,59 +163,56 @@ p {
  }
 
 /* About Page */
-/* Offerings List */
-#offerings {
+/* About Page Hero */
+.offerings-hero {
     height: 500px;
     width: 100%;
     background: url("../images/sioga-offerings-image.jpg") no-repeat center center/cover;
     position: relative;
 }
 
-#offerings-overlay {
+.offerings-overlay {
     height: 500px;
     width: 100%;
     background-color: #333366ab;
     position: relative;
  }
 
- #offerings-float {
+ .offerings-float {
      position: absolute;
      bottom: 15%;
      padding-top: 40px;
      padding-left: 10px;
  }
 
- .white-heading {
-    color: #ffffff
- }
+/* About Section */
+.offers-block {
+    display: flex;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
 
- .padding {
-    padding-left: 10px;
- }
-
- #offers-list {
+ .offers-list {
     padding: 10px;
     list-style: square inside;
  }
 
- /* Timetable*/
-
- #timetable-heading {
-      background-color: #ccccff;
-      padding: 5px 10px;
-      box-shadow: 0 2px 2px #333333;
-  }
-  
- #timetable {
+ .offers-heading {
     background-color: #ccccff;
-    width: 100%;
-    padding: 0px 10px;
+    padding: 5px 50px 5px 10px;
+    /*
+    box-shadow: 0 2px 2px #333333; */
+}
+ /* Timetable*/
+ .timetable {
+    background-color: #ccccff;
+    padding: 0px 2px;
     text-align: left;
  }
 
  /* Sign-up Page*/
 /* customise code from "Sourdough Bakes" */
-#signup-background {
+.signup-background {
     height: 600px;
     width: 100%;
     background: url("../images/pexels-cup-of-couple-6633999.jpg") no-repeat center right/cover;
@@ -294,6 +306,20 @@ textarea {
          color: #ccccff;
          background-color: #333366ab;
      }
+
+     .timetable {
+        padding: 0px 10px;
+     }
+
+     th {
+        padding: 1rem 5rem 0 0;
+    }
+    
+    td {
+        padding: 1rem 0 0;
+    }
+
+
  }
 
  /* Media query: tablets and larger (768px and up) */
@@ -353,11 +379,30 @@ textarea {
      .text-block {
         padding: .5rem 2rem;
         min-width: 50%;
+        max-width: 50%;
      }
 
      .new-to-yoga h2 {
         font-size: 5rem;
      }
+
+     /* About */
+     .offers-block {
+        flex-wrap: wrap;
+        margin: 2rem;
+    }
+    
+    .offerings {
+        min-width: 50%;
+        max-width: 50%;
+     }
+    
+     .offers-list {
+        padding: 10px;
+     }
+    
+
+
  }
 
  /* Large devices (laptops and desktops, 992px and up) */
