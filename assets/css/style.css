@@ -39,6 +39,9 @@ td {
     padding: 1rem 0 0;
 }
 
+.lists {
+    list-style-type: none;
+}
 
 .white-heading {
     color: #ffffff
@@ -103,6 +106,7 @@ nav {
 
 #logo {
     padding: 5px;
+    margin: unset;
 }
 
 .section-line {
@@ -165,14 +169,14 @@ main {
 /* About Page */
 /* About Page Hero */
 .offerings-hero {
-    height: 500px;
+    height: 400px;
     width: 100%;
     background: url("../images/sioga-offerings-image.jpg") no-repeat center center/cover;
     position: relative;
 }
 
 .offerings-overlay {
-    height: 500px;
+    height: 400px;
     width: 100%;
     background-color: #333366ab;
     position: relative;
@@ -180,11 +184,10 @@ main {
 
 .offerings-float {
     position: absolute;
-    bottom: 15%;
+    bottom: 25%;
     padding-top: 40px;
     padding-left: 10px;
 }
-
 /* About Section */
 .offers-block {
     display: flex;
@@ -273,7 +276,8 @@ textarea {
     color: #000033;
 }
 
-.lists {
+.contact-list {
+    font-size: 14px;
     list-style-type: none;
 }
 
@@ -293,7 +297,8 @@ textarea {
     color: #000033;
 }
 
-/* Larger than standard phones */ @media screen and (min-width: 428px) {
+/* Media query: Smaller Phone Screens */
+@media screen and (min-width: 428px) {
 
     /* Hero Section Home Page*/
     .hero {
@@ -318,6 +323,48 @@ textarea {
         padding: 2.5rem 2rem;
     }
 
+    /* About Page */
+    /* About Page Hero */
+    .offerings-hero {
+        height: 500px;
+        width: 100%;
+        background: url("../images/sioga-offerings-image.jpg") no-repeat center center/cover;
+        position: relative;
+    }
+
+    .offerings-overlay {
+        height: 500px;
+        width: 100%;
+        background-color: #333366ab;
+        position: relative;
+    }
+
+    .offerings-float {
+        position: absolute;
+        bottom: 15%;
+        padding-top: 40px;
+        padding-left: 10px;
+    }
+
+    .timetable {
+        padding: 0px 10px;
+    }
+    th {
+        padding: 1rem 5rem 0 0;
+    }
+
+    td {
+        padding: 1rem 0 0;
+    }
+
+/* Signup */
+.signup-background {
+    height: 600px;
+    width: 100%;
+    background: url("../images/pexels-cup-of-couple-6633999.jpg") no-repeat center right/cover;
+}
+
+/* Contact Page */
     .contact-info {
         display: flex;
         flex-direction: column;
@@ -332,18 +379,6 @@ textarea {
         color: #ccccff;
         background-color: #333366ab;
     }
-
-    .timetable {
-        padding: 0px 10px;
-    }
-    th {
-        padding: 1rem 5rem 0 0;
-    }
-
-    td {
-        padding: 1rem 0 0;
-    }
-
 }
 
 /* Media query: tablets and larger (768px and up) */
