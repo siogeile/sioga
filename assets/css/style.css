@@ -1,26 +1,31 @@
- /* Google fonts import */
- @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Suravaram&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Suravaram&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
- /* Asterisk wildcard selector to override default styles added by the browser */
- * {
-     padding: 0;
-     margin: 0;
-     box-sizing: border-box;
- }
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
- /* General Styles */
- body {
+/* General Styles */
+body {
     font-family: 'Comfortaa', sans-serif;
-     min-height: 100vh;
-     display: flex;
-     flex-direction: column;
-     color: #333333;
- }
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #333333;
+}
+
 /*  h1, h2 and h3 styles */
-h1, h2, h3 {
-     font-family: 'Ubuntu', sans-serif;
-     letter-spacing: 2px;
- }
+h1,
+h2,
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+    margin: 1rem 0;
+}
+
 p {
     margin: 1rem 0;
     font-family: 'Comfortaa';
@@ -37,130 +42,125 @@ td {
 
 .white-heading {
     color: #ffffff
- }
+}
 
- /* Header */
- header {
-     background-color: #ccccff;
-     padding: 0 1rem;
-     position: fixed;
-     z-index: 99;
-     width: 100%;
-     display: flex;
-     justify-content: space-between;
-     align-items: baseline;
-     box-shadow: 0 2px 2px #333333;
- }
+/* Header */
+header {
+    background-color: #ccccff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    box-shadow: 0 2px 2px #333333;
+}
 
- header a {
-     text-decoration: none;
-     color: inherit;
- }
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 
- #menu {
-     font-size: 110%;
-     letter-spacing: 3px;
-     list-style-type: none;
- }
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
 
- #menu > li {
-     margin-bottom: 1em;
- }
+#menu>li {
+    margin-bottom: 1em;
+}
 
- .active {
-     border-bottom: 1px solid #000033;
- }
+.active {
+    border-bottom: 1px solid #000033;
+}
 
- /* Navbar styles with dropdown toggle */
- nav {
-     position: absolute;
-     background-color: #ccccff;
-     width: 100%;
-     left: 0;
-     padding: 1rem 1rem;
-     box-shadow: 0 1px 2px #333333;
-     display: none;
-     top: 100%
- }
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ccccff;
+    width: 100%;
+    left: 0;
+    padding: 1rem 1rem;
+    box-shadow: 0 1px 2px #333333;
+    display: none;
+    top: 100%
+}
 
- /* Nav Toggle */
- #nav-toggle:checked~nav {
-     display: block;
- }
+/* Nav Toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
 
- #nav-toggle {
-     display: none;
- }
+#nav-toggle {
+    display: none;
+}
 
- .nav-toggle-label {
-     font-size: 2rem;
- }
+.nav-toggle-label {
+    font-size: 2rem;
+}
 
- #logo {
+#logo {
     padding: 5px;
- }
+}
 
- .section-line {
+.section-line {
     border-bottom: 6px solid #33336669;
     box-shadow: 0 3px 2px #ccccff28;
-  }
+}
 
- /* Main Content */
- main {
-     /* Make main element take up the surplus space to push down the footer */
-     flex: 1 0 auto;
-     margin-top: 47px;
-     background-color: #ccccff;
- }
+/* Main Content */
+main {
+    /* Make main element take up the surplus space to push down the footer */
+    flex: 1 0 auto;
+    margin-top: 47px;
+    background-color: #ccccff;
+}
 
- /* Hero Section Home Page*/
- #hero {
-    height: 600px;
+/* Hero Section Home Page*/
+.hero {
+    height: 400px;
     width: 100%;
     background: url("../images/sioga-hero-image.jpg") no-repeat center center/cover;
     position: relative;
     box-shadow: 0 3px 2px #333366a2;
- }
+}
 
- #cover-text {
+.cover-text {
     color: #ccccff;
-    /* Set transparancy of background color with extra set of characters at the end of hex code*/
-    background-color: #333366;
-    font-size: 130%;
+    background-color: #333366ab;
     position: absolute;
-    bottom: 30px;
-    width: 70%;
-    min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
-    padding: 2.5rem 2rem;
- }
+    bottom: 1rem;
+    width: 60%;
+    padding: 10px 10px;
+}
 
- /* Text Block Homepage */
- .block {
+/* Text Block Homepage */
+.block {
     padding: .5rem 1rem;
- }
+}
 
- .text-block {
+.text-block {
     padding: .5rem 0;
     display: flex;
     flex-wrap: wrap;
     padding-inline: 1rem;
- }
+}
 
- .text-box {
+.text-box {
     background-color: #ccccffc7;
- }
+}
 
- .new-to-yoga {
+.new-to-yoga {
     background-color: #ffffff;
     background: url("../images/sioga-new-to-yoga-image.jpg") no-repeat center center/cover;
     padding: 3rem 0;
- }
+}
 
- .new-to-yoga h2 {
+.new-to-yoga h2 {
     font-size: 3rem;
- }
+}
 
 /* About Page */
 /* About Page Hero */
@@ -176,14 +176,14 @@ td {
     width: 100%;
     background-color: #333366ab;
     position: relative;
- }
+}
 
- .offerings-float {
-     position: absolute;
-     bottom: 15%;
-     padding-top: 40px;
-     padding-left: 10px;
- }
+.offerings-float {
+    position: absolute;
+    bottom: 15%;
+    padding-top: 40px;
+    padding-left: 10px;
+}
 
 /* About Section */
 .offers-block {
@@ -192,31 +192,33 @@ td {
     flex-wrap: wrap;
 }
 
- .offers-list {
+.offers-list {
     padding: 10px;
     list-style: square inside;
- }
+}
 
- .offers-heading {
+.offers-heading {
     background-color: #ccccff;
     padding: 5px 50px 5px 10px;
     /*
     box-shadow: 0 2px 2px #333333; */
 }
- /* Timetable*/
- .timetable {
+
+/* Timetable*/
+.timetable {
     background-color: #ccccff;
     padding: 0px 2px;
     text-align: left;
- }
+}
 
- /* Sign-up Page*/
+/* Sign-up Page*/
 /* customise code from "Sourdough Bakes" */
 .signup-background {
     height: 600px;
     width: 100%;
     background: url("../images/pexels-cup-of-couple-6633999.jpg") no-repeat center right/cover;
 }
+
 .text-input,
 textarea {
     width: 100%;
@@ -268,151 +270,166 @@ textarea {
     left: 20px;
     padding-top: 40px;
     padding-left: 10px;
-    color:#000033;
+    color: #000033;
 }
 
 .lists {
     list-style-type: none;
 }
- /* Footer */
- #social-networks {
+
+/* Footer */
+#social-networks {
     background-color: #9999cc;
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
- }
+}
 
- #social-networks i {
+#social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #000033;
- }
+}
 
- /* Larger than standard phones */
- @media screen and (min-width: 428px) {
-     .contact-info {
-         display: flex;
-         flex-direction: column;
-         height: 170px;
-         width: 280px;
-         position: relative;
-         top: 20px;
-         text-overflow: clip;
-         left: 20px;
-         padding-top: 40px;
-         padding-left: 10px;
-         color: #ccccff;
-         background-color: #333366ab;
-     }
+/* Larger than standard phones */ @media screen and (min-width: 428px) {
 
-     .timetable {
+    /* Hero Section Home Page*/
+    .hero {
+        height: 600px;
+        width: 100%;
+        background: url("../images/sioga-hero-image.jpg") no-repeat center center/cover;
+        position: relative;
+        box-shadow: 0 3px 2px #333366a2;
+    }
+
+    .cover-text {
+        color: #ccccff;
+        /* Set transparancy of background color with extra set of characters at the end of hex code*/
+        background-color: #333366;
+        font-size: 130%;
+        position: absolute;
+        bottom: 30px;
+        width: 70%;
+        min-height: 200px;
+        padding-top: 40px;
+        padding-left: 10px;
+        padding: 2.5rem 2rem;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        height: 170px;
+        width: 280px;
+        position: relative;
+        top: 20px;
+        text-overflow: clip;
+        left: 20px;
+        padding-top: 40px;
+        padding-left: 10px;
+        color: #ccccff;
+        background-color: #333366ab;
+    }
+
+    .timetable {
         padding: 0px 10px;
-     }
-
-     th {
+    }
+    th {
         padding: 1rem 5rem 0 0;
     }
-    
+
     td {
         padding: 1rem 0 0;
     }
 
+}
 
- }
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 780px) {
 
- /* Media query: tablets and larger (768px and up) */
- @media screen and (min-width: 780px) {
-
-     /* Header */
-     nav {
-         display: block;
-         position: relative;
-         box-shadow: none;
-         width: fit-content;
-         padding-right: 1rem;
-     }
-
-     #menu {
-         display: flex;
-     }
-
-     #menu > li {
-         padding-left: 1rem;
-         letter-spacing: 2px;
-     }
-
-     .nav-toggle-label {
-         display: none;
-     }
-
-     #logo {
-         font-size: 280%;
-         line-height: 75px;
-         margin: 0 0.5rem;
-     }
-
-     /* Main content */
-     main {
-         /* Push main content down to accomodate larger header */
-         flex: 1 0 auto;
-         margin-top: 75px;
-     }
-
-     .homepage {
-        font-size: 1.5rem;
-     }
-
-     /* Hero */
-     #cover-text {
-        width: 300px;
-        right: 50px;
-     }
-
-     .block {
-        display: flex;
-        padding: .5rem 8rem;
-        align-items: stretch;
-     }
-    
-     .text-block {
-        padding: .5rem 2rem;
-        min-width: 50%;
-        max-width: 50%;
-     }
-
-     .new-to-yoga h2 {
-        font-size: 5rem;
-     }
-
-     /* About */
-     .offers-block {
-        flex-wrap: wrap;
-        margin: 2rem;
+/* Header */
+nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
     }
-    
-    .offerings {
-        min-width: 50%;
-        max-width: 50%;
-     }
-    
-     .offers-list {
-        padding: 10px;
-     }
-    
 
+#menu {
+    display: flex;
+}
+#menu>li {
+    padding-left: 1rem;
+    letter-spacing: 2px;
+}
 
- }
+.nav-toggle-label {
+    display: none;
+}
 
- /* Large devices (laptops and desktops, 992px and up) */
- @media screen and (min-width: 992px) {
-     #menu a:hover {
-         border-bottom: 1px solid #000033
-     }
+#logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+}
+
+/* Main content */
+/* Push main content down to accomodate larger header */
+main {
+    flex: 1 0 auto;
+    margin-top: 75px;
+}
+
+.homepage {
+    font-size: 1.5rem;
+}
+
+/* Hero */
+#cover-text {
+    width: 300px;
+    right: 50px;
+}
+
+.block {
+    display: flex;
+    padding: .5rem 8rem;
+    align-items: stretch;
+}
+
+.text-block {
+    padding: .5rem 2rem;
+    min-width: 50%;
+    max-width: 50%;
+}
+
+.new-to-yoga h2 {
+    font-size: 5rem;
+}
+
+/* About */
+.offers-block {
+    flex-wrap: wrap;
+    margin: 2rem;
+}
+
+.offerings {
+    min-width: 50%;
+    max-width: 50%;
+}
+
+.offers-list {
+    padding: 10px;
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #000033
+    }
 
     body {
         font-size: 18px;
-     }
-
- }
+    }
