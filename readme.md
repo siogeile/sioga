@@ -4,7 +4,7 @@ sioga is a website for learning yoga and meditation techniques."Sióga" is an Ir
 
 Sióg believes yoga is a powerful tool for healing and growth, but also recognises that it can be inaccessible. Sióga aims to help yogis from any background and of any experience level feel like they can find benefit out of a yoga practice regardless of financial situation, class, gender, race, ethnicity, sexual orientation, disability or location.
 
-![responsive-screenshot](/assets/images/sioga-responsive-allpages.png)
+![responsive-screenshot](../sioga/assets/images/sioga-website.png)
 
 [View sióga on Github Pages](https://siogeile.github.io/sioga/)
 
@@ -102,10 +102,6 @@ I wanted to use a font that had some small hint of how sanskrit script looks, bu
 ![fonts-light](/assets/images/wordmarkit-googlefonts-previews-light.png "Comfortaa and Ubuntu dark on light Font Preview from wordmark.it")
 ![fonts-dark](/assets/images/wordmarkit-googlefonts-previews.png "Comfortaa and Ubuntu light on dark Font Preview from wordmark.it")
 
-### Imagery
-
-Planned imagery used through site
-
 ### Wireframes
 
 <details>
@@ -176,9 +172,9 @@ Planned imagery used through site
 
 #### Page specific features
 
-- __Is yoga for me infographic__
+- __Is yoga for me__
 
-  - A visual section on the landing page that answers questions with clarity and shows the user the benefits of yoga.
+  - A text section on the landing page that answers questions with clarity and lets users know what to expect from a class
 
   - The user will see the value of sioga classes and encourage them to encorporate yoga into their daily routine.
 
@@ -198,8 +194,6 @@ Planned imagery used through site
 
   - A text section containing contact information for site visitors
 
-[amiresponsive](https://ui.dev/amiresponsive) screenshots of each page and featureof the site here
-
 ### Future Implementations
 
 - A thank you page the user is redirected to upon sign-up
@@ -207,12 +201,6 @@ Planned imagery used through site
 - A 404 Page
 
 - A contact form that allows users to write a message directly into the site rather than leaving to visit other social media pages or their email account
-
-### Accessibility
-
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
 
 ## Technologies Used
 
@@ -223,29 +211,57 @@ Have you chosen fonts that are dyslexia/accessible friendly?
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
+Balsamiq - Used to create wireframes.
 
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
+Git - For version control.
 
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+Github - To save and store the files for the website.
+
+[Coolors](https://coolors.co/) - To select the colour palette for the site.
+
+[Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+
+[Font Awesome](https://fontawesome.com/) - For the iconography on the website.
+
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+[ezgif](https://ezgif.com/) - To compress images.
+
+[Favicon.io](https://favicon.io/) To create favicon.
+
+[Am I Responsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
 
 ## Deployment & Local Development
 
 ### Deployment
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+The site is deployed using GitHub Pages. Visit the deployed site [here](https://siogeile.github.io/sioga/index.html). To deploy using GitHub pages:
+
+1. Login or Sign Up to GitHub.
+2. Open the project repository.
+3. Click on "Settings" on the navigation bar under the repository title.
+4. Click on "Pages" in the left hand navigation panel.
+5. Under "Source", choose which branch to deploy. This should be Main for newer repositories (older repositories may still use Master).
+6. Choose which folder to deploy from, usually "/root".
+7. Click "Save", then wait for it to be deployed. It can take some time for the page to be fully deployed.
+8. Your URL will be displayed above "Source".
 
 ### Local Development
 
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
-
 #### How to Fork
 
-Place instructions on how to fork your project here.
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, sioga.
+3. Click the Fork button in the top right corner.
 
 #### How to Clone
 
-Place instructions on how to clone your project here.
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, sioga.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3.
+6. Press enter.
 
 ## Testing
 
